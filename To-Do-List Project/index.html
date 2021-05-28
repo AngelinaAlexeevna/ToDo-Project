@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>To-Do Liste</title>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <script src="todo.js"></script>
+    </head>
+    <body>
+        <header class="flex">
+            <h1>TODO-Liste</h1>
+        </header>
+        <main>
+            <div class="flex">
+            <p>Gib Text im Eingabefeld ein, um Aufgaben zur Liste hinzuzufügen.</p> 
+            <p>Klicke auf eine Aufgabe, um sie als erledigt zu markieren.</p>
+            <p>Klicke auf "X", um eine Aufgabe aus der Liste zu entfernen.</p>
+            <section class="formAdd">
+                <form name="formular">
+                    <input type="text" name="form--input" id="form--input" placeholder="Neue Aufgabe">
+                    <input type="button" id="form--button" value="+" onclick="clickFunction()">
+                </form>
+            </section>
+            
+           
+            
+            </div>
+            
+        </main>
+    </body>
+</html>
